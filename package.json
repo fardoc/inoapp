@@ -4,8 +4,8 @@
   "private": true,
   "dependencies": {
     "@types/jest": "23.3.11",
-    "@types/node": "10.12.18",
-    "@types/react": "16.7.18",
+    "@types/node": "^10.12.18",
+    "@types/react": "^16.7.18",
     "@types/react-dom": "16.0.11",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
@@ -32,9 +32,12 @@
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@storybook/addon-actions": "^4.1.4",
+    "@storybook/addon-knobs": "^4.1.4",
     "@storybook/addon-links": "^4.1.4",
     "@storybook/addons": "^4.1.4",
     "@storybook/react": "^4.1.4",
+    "@types/storybook__addon-actions": "^3.4.1",
+    "@types/storybook__addon-knobs": "^4.0.0",
     "@types/storybook__react": "^4.0.0"
   }
 }
